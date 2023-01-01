@@ -1,0 +1,1 @@
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>UserLoggedOut
