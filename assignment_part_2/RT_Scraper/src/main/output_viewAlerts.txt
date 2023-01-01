@@ -1,5 +1,0 @@
-[viewsProperty]AUTOMATON::> viewsProperty() STATE::>UserLoggedOut
-!! - Viewed Without Logging In
-[viewsProperty]MOVED ON METHODCALL: void main.EventLogQuery.ViewedAlerts() TO STATE::> !!!SYSTEM REACHED BAD STATE!!! ViewAlertsWithoutLogging 
-aspects._asp_viewAlerts0.ajc$before$aspects__asp_viewAlerts0$3$a89a2586(_asp_viewAlerts0.aj:30)
-main.errorProgram.main(errorProgram.java:7) 

@@ -1,0 +1,9 @@
+digraph _logic_alertProperty {
+rankdir=LR;
+node [shape = circle]; AlertCreated AlertsDeleted;
+node [shape = point]; _s_s;
+_s_s -> AlertsDeleted;
+AlertsDeleted -> AlertCreated [ label = "(1) CreateAlert"];
+AlertCreated -> AlertCreated [ label = "(1) CreateAlert"];
+AlertCreated -> AlertsDeleted [ label = "(2) ClearAlerts"];
+}
